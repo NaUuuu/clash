@@ -1,0 +1,8 @@
+http://192.168.31.137:5000/tts,
+{
+    "method": "POST",
+    "body": {
+        "cha_name": "杨晨",
+        "text": "{{java.encodeURI(speakText)}}"
+    }
+}
